@@ -185,3 +185,18 @@ nav ul ul li a {
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
 }
+
+.movie-section {
+    position: relative;
+    height: 400px;
+    background-color: #66b8c4;
+}
+
+.single-movie {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
