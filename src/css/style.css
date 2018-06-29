@@ -179,6 +179,9 @@ nav ul ul li a {
     object-fit: cover;
     margin: 10px;
     border: 5px solid #fff;
+    -webkit-box-shadow: 4px 4px 24px 1px rgba(102, 184, 196, 0.75);
+    box-shadow: 4px 4px 24px 1px rgba(102, 184, 196, 0.75);
+
 }
 
 .gallery-image img:hover {
@@ -199,4 +202,39 @@ nav ul ul li a {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.icon-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+.icon {
+    display: block;
+    width: 200px;
+    -webkit-box-shadow: 4px 4px 24px 1px rgba(102, 184, 196, 0.75);
+    box-shadow: 4px 4px 24px 1px rgba(102, 184, 196, 0.75);
+    text-align: center;
+}
+
+.icon i {
+    font-size: 50px;
+    color: #e00986;
+    padding: 15px;
+}
+
+.icon p {
+    font-size: 30px;
+}
+
+.icon p span {
+    font-size: 18px;
 }
